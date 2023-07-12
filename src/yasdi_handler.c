@@ -152,7 +152,8 @@ struct device_value_t **yh_get_values()
             continue;
 
         DWORD channels[MAX_CHANNEL_COUNT];
-        DWORD channel_count = GetChannelHandlesEx(device, channels, MAX_CHANNEL_COUNT, SPOTCHANNELS);
+      //  DWORD channel_count = GetChannelHandlesEx(device, channels, MAX_CHANNEL_COUNT, SPOTCHANNELS);
+        DWORD channel_count = GetChannelHandlesEx(device, channels, MAX_CHANNEL_COUNT, TESTCHANNELS);
         if (channel_count == 0)
         {
             log_debug("Device channel list download is apparently still in progress, skipping device %u...", device);
