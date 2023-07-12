@@ -178,7 +178,7 @@ struct device_value_t **yh_get_values()
         cJSON_AddNumberToObject(device_json, "sn", device_sn);
         cJSON_AddNumberToObject(device_json, "time", time(NULL));
         cJSON *device_values = cJSON_CreateObject();
-        cJSON_AddItemToObject(device_json, "values", device_values);
+        cJSON_AddItemToObject(device_json, "val", device_values);
 
         for (DWORD channel_i = 0; channel_i < channel_count; channel_i++)
         {
