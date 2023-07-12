@@ -10,6 +10,11 @@ arch:
 - amd64
 - i386
 startup: application
+ports:
+  24273/udp: 24273
+  24273/tcp: 24273
+  24272/udp: 24272
+  24272/tcp: 24272
 panel_icon: mdi:solar-power
 boot: auto
 legacy: true
