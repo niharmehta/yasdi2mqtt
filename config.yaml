@@ -27,10 +27,10 @@ options:
   YASDI_DRIVER_ID: 0
   YASDI_MAX_DEVICE_COUNT: 1
   YASDI_UPDATE_INTERVAL: 30
-  MQTT_TOPIC_PREFIX: "solar/inverter"
-  MQTT_SERVER: "example.com"
+  MQTT_TOPIC_PREFIX: "sma/inverter"
+  MQTT_SERVER: "localhost"
   MQTT_PORT: 1883
-  MQTT_USER: "johndoe"
+  MQTT_USER: "mqttuser"
   MQTT_PASSWORD: "sEcReT"
 schema:
   YASDI_CONFIG: "str"
@@ -44,5 +44,5 @@ schema:
   MQTT_PASSWORD: "str"
 host_network: true
 map:
-- config:ro
+- config:rw
 uart: true
