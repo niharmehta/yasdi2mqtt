@@ -152,6 +152,7 @@ struct device_value_t **yh_get_values()
             continue;
 
         DWORD channels[MAX_CHANNEL_COUNT];
+        
         DWORD channel_count = GetChannelHandlesEx(device, channels, MAX_CHANNEL_COUNT, ALLCHANNELS); // Possible Values are: SPOTCHANNELS, PARAMCHANNELS, TESTCHANNELS, ALLCHANNELS; Found in libyasdimaster.h
         if (channel_count == 0)
         {
