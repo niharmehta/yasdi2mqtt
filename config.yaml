@@ -1,5 +1,5 @@
 name: yasdi2mqtt-ha
-version: "1.3"
+version: "1.4"
 slug: yasdi2mqtt
 description: Yasdi2mqtt
 url: https://github.com/frankol/yasdi2mqtt
