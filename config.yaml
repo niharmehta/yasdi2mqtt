@@ -21,7 +21,7 @@ legacy: true
 stage: experimental
 ingress: false
 init: false
-image: frankol/yasdi2mqtt
+image: pkwagner/yasdi2mqtt
 options:
   YASDI_CONFIG: "/config/yasdi.ini"
   YASDI_DRIVER_ID: 0
@@ -31,7 +31,8 @@ options:
   MQTT_SERVER: "localhost"
   MQTT_PORT: 1883
   MQTT_USER: "mqttuser"
-  MQTT_PASSWORD: "sEcReT"
+  MQTT_PASSWORD: "mqttpassword"
+  LOG_DEBUG: 0
 schema:
   YASDI_CONFIG: "str"
   YASDI_DRIVER_ID: "int"
