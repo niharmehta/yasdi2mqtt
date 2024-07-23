@@ -2,7 +2,7 @@ name: yasdi2mqtt-ha
 version: "latest"
 slug: yasdi2mqtt
 description: Yasdi2mqtt
-url: https://github.com/frankol/yasdi2mqtt
+url: https://github.com/niharmehta/yasdi2mqtt-ha
 arch:
 - armhf
 - armv7
