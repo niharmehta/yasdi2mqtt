@@ -6,6 +6,7 @@ url: https://github.com/frankol/yasdi2mqtt
 arch:
 - armhf
 - armv7
+- armv8
 - aarch64
 - amd64
 - i386
